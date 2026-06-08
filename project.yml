@@ -1,0 +1,41 @@
+name: NoLa
+
+options:
+  bundleIdPrefix: com.rodrigogaray
+  deploymentTarget:
+    macOS: "14.0"
+
+targets:
+  NoLa:
+    type: application
+    platform: macOS
+    deploymentTarget: "14.0"
+    sources:
+      - path: Sources
+      - path: Resources
+        buildPhase: resources
+        optional: true
+    info:
+      path: Info.plist
+      properties:
+        CFBundleName: NoLa
+        CFBundleDisplayName: NoLa
+        CFBundleShortVersionString: "0.1.0"
+        CFBundleVersion: "1"
+        LSMinimumSystemVersion: "14.0"
+        LSUIElement: true
+        NSPrincipalClass: NSApplication
+        NSHighResolutionCapable: true
+    settings:
+      base:
+        PRODUCT_NAME: NoLa
+        PRODUCT_BUNDLE_IDENTIFIER: com.rodrigogaray.nola
+        MACOSX_DEPLOYMENT_TARGET: "14.0"
+        SWIFT_VERSION: "5.9"
+        CODE_SIGN_IDENTITY: "-"
+        CODE_SIGN_STYLE: Manual
+        CODE_SIGNING_REQUIRED: "YES"
+        CODE_SIGN_ENTITLEMENTS: ""
+        DEVELOPMENT_TEAM: ""
+        ENABLE_HARDENED_RUNTIME: "NO"
+        ONLY_ACTIVE_ARCH: "YES"

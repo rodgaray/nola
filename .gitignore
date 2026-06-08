@@ -1,0 +1,16 @@
+# Generado por XcodeGen — no versionar
+NoLa.xcodeproj/
+
+# Build artifacts
+.build/
+DerivedData/
+
+# Binarios bundleados (generados por scripts/download-deps.sh)
+Resources/yt-dlp
+Resources/ffmpeg
+
+# macOS
+.DS_Store
+
+#Xcode
+*.xcodeproj/
