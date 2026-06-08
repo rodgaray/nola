@@ -1,3 +1,7 @@
+<p align="center">
+  <img src=".github/logo.png" width="128" alt="NoLa">
+</p>
+
 # NoLa
 
 Menu bar front-end para **yt-dlp** en macOS. Descarga videos y audio de X/Twitter y otros sitios directamente desde la barra de menú.
