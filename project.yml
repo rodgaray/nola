@@ -26,6 +26,7 @@ targets:
         LSUIElement: true
         NSPrincipalClass: NSApplication
         NSHighResolutionCapable: true
+        CFBundleIconFile: AppIcon
     settings:
       base:
         PRODUCT_NAME: NoLa
