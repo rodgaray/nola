@@ -1,4 +1,4 @@
-# LatteMio — Reglas del proyecto
+# NoLa — Reglas del proyecto
 
 ## Plataforma
 - Target: macOS 14.0 (Sonoma) o superior
