@@ -4,6 +4,7 @@ NoLa.xcodeproj/
 # Build artifacts
 .build/
 DerivedData/
+dist/
 
 # Binarios bundleados (generados por scripts/download-deps.sh)
 Resources/yt-dlp
